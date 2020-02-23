@@ -1,6 +1,18 @@
 return {
   ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
   ["workshop-1845106626"]={ configuration_options={ more_fuel=2 }, enabled=true },
+  ["workshop-378160973"]={
+    configuration_options={
+      ENABLEPINGS=true,
+      FIREOPTIONS=2,
+      OVERRIDEMODE=false,
+      SHAREMINIMAPPROGRESS=true,
+      SHOWFIREICONS=true,
+      SHOWPLAYERICONS=true,
+      SHOWPLAYERSOPTIONS=2 
+    },
+    enabled=true 
+  },
   ["workshop-380423963"]={
     configuration_options={
       [""]=0,
