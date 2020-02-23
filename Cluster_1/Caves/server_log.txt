@@ -1,0 +1,1355 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 43%
+	Available Physical Memory: 9308m/16343m
+	Available Page File: 8521m/19415m
+	Available Virtual Memory: 3984m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 29m
+	Quota Peak Page Pool Usage: 220k
+	Quota Page Pool Usage: 214k
+	Quota Peak Non Paged Pool Usage:16k
+	Quota Non Paged Pool Usage: 16k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/302871212/Cluster_3/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 393281
+[00:00:00]: Current time: Sat Feb 22 20:49:43 2020
+
+[00:00:00]: Don't Starve Together: 393281 WIN32
+[00:00:00]: Build Date: 5082
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 4476 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_3 -ownernetid 76561198263136940 -ownerdir 302871212 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region US 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (5504)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:3.02
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (15016)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\SteamLibrary\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to US
+[00:00:00]: THREAD - started 'StreamInput' (9456)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/302871212/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/302871212/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/302871212/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198263136940
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/302871212/Cluster_3/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/302871212/Cluster_3/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz
+    manufacturer              GenuineIntel
+    clockSpeed                3501
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1060 6GB
+    driverDate                20190905000000.000000-000
+    megsOfRam                 4095
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             26.21.14.3630
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:01]:   taskgrouplist:	default	联机版	
+[00:00:01]:   taskgrouplist:	classic	经典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:01]: modoverrides.lua enabling workshop-1207269058	
+[00:00:01]: modoverrides.lua enabling workshop-623749604	
+[00:00:01]: modoverrides.lua enabling workshop-1845106626	
+[00:00:01]: modoverrides.lua enabling workshop-478005098	
+[00:00:01]: modoverrides.lua enabling workshop-380423963	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1845106626	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-380423963	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-478005098	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-623749604	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:01]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:01]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:01]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:01]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:01]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:01]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:01]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.11	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1845106626_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:01]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:01]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:01]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:01]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:01]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:01]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:01]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:01]: Loading mod: workshop-1845106626 (Smarter Ice Flingomatic) Version:1.2	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-380423963_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:01]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:01]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:01]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:01]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:01]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:01]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:01]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:01]: Loading mod: workshop-380423963 (Mineable Gems) Version:2.20	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-478005098_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:01]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:01]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:01]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:01]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:01]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:01]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:01]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:01]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.3	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-623749604_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:01]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:01]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:01]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:01]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:01]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:01]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:01]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:01]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:01]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:01]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:01]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:01]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:01]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:01]: Loading mod: workshop-623749604 ( Storeroom) Version:2.5a	
+[00:00:01]: Mod: workshop-380423963 (Mineable Gems)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-380423963 (Mineable Gems)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-380423963 (Mineable Gems)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-623749604 ( Storeroom)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-623749604 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-623749604 ( Storeroom)	Loading modmain.lua	
+[00:00:01]: Storeroom perishable is loaded	
+[00:00:01]: modimport: ../mods/workshop-623749604/perishable/dst.lua	
+[00:00:01]: ----- STOREROOM DEBUG ----- 	
+[00:00:01]: slots = 80	
+[00:00:01]: perish = 1	
+[00:00:01]: recipe: cutstone = 20 marble = 4 boards = 20	
+[00:00:01]: widget: widgetanimbank = ui_chest_5x16 widgetpos = 	(0.00, 160.00, 0.00)	 slot_x = 15 slot_y = 4 posslot_x = 91 posslot_y = 42	
+[00:00:01]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering mod namespace "workshop-1207269058"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	false	
+[00:00:02]: Could not load saveindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-380423963 (Mineable Gems)	Registering prefabs	
+[00:00:04]: Mod: workshop-380423963 (Mineable Gems)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:04]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-623749604 ( Storeroom)	Registering prefabs	
+[00:00:04]: Mod: workshop-623749604 ( Storeroom)	  Registering prefab file: prefabs/storeroom	
+[00:00:04]: Mod: workshop-623749604 ( Storeroom)	    storeroom	
+[00:00:04]: Mod: workshop-623749604 ( Storeroom)	    storeroom_placer	
+[00:00:04]: Mod: workshop-623749604 ( Storeroom)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Registering prefabs	
+[00:00:04]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (12772)
+[00:00:04]: FilesExistAsyncThread started (14436 files)...
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [IPC] Signal 'DST_Slave_Kill' opened  #00000530
+[00:00:04]: [IPC] Registering handler for signal #00000530
+[00:00:04]: [IPC] Handle #00000530 added to the Eventhandles
+[00:00:04]: [IPC] Signal 'DST_Slave_Starting' opened  #000004AC
+[00:00:04]: [IPC] Sending signal... #000004AC
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_j9S5cUG6) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: true
+[00:00:05]:   ServerPort: 10998
+[00:00:05]:   SteamAuthPort: 8767
+[00:00:05]:   SteamMasterServerPort: 27017
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: false
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 6
+[00:00:05]:   GameMode: survival
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: social
+[00:00:05]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:05]: [Shard] No shard id specified, generating a random one...
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-623749604	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:05]: Online Server Started on port: 10998
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	background_node_range	 V: 	table: 093DCF88	
+[00:00:05]: 		K: 	1	 V: 	0	
+[00:00:05]: 		K: 	2	 V: 	1	
+[00:00:05]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:05]: 	K: 	location	 V: 	cave	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	洞穴	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 093DD000	
+[00:00:05]: 		K: 	banana	 V: 	default	
+[00:00:05]: 		K: 	bats	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	default	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	bunnymen	 V: 	default	
+[00:00:05]: 		K: 	cave_ponds	 V: 	default	
+[00:00:05]: 		K: 	cave_spiders	 V: 	default	
+[00:00:05]: 		K: 	cavelight	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	disease_delay	 V: 	default	
+[00:00:05]: 		K: 	earthquakes	 V: 	default	
+[00:00:05]: 		K: 	fern	 V: 	default	
+[00:00:05]: 		K: 	fissure	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	default	
+[00:00:05]: 		K: 	flower_cave	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:05]: 		K: 	lichen	 V: 	default	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	monkey	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	default	
+[00:00:05]: 		K: 	mushtree	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	reeds	 V: 	default	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	never	
+[00:00:05]: 		K: 	rock	 V: 	default	
+[00:00:05]: 		K: 	rocky	 V: 	default	
+[00:00:05]: 		K: 	sapling	 V: 	default	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	slurper	 V: 	default	
+[00:00:05]: 		K: 	slurtles	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	caves	
+[00:00:05]: 		K: 	task_set	 V: 	cave_default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	default	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	default	
+[00:00:05]: 		K: 	wormattacks	 V: 	default	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:05]: 		K: 	wormlights	 V: 	default	
+[00:00:05]: 		K: 	worms	 V: 	default	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 093DD208	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 093DD230	
+[00:00:05]: 	K: 	version	 V: 	4	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.03 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: FilesExistAsyncThread aborted.
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: lua_close took 0.05 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:06]:   taskgrouplist:	default	联机版	
+[00:00:06]:   taskgrouplist:	classic	经典	
+[00:00:06]:   taskgrouplist:	cave_default	地下	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:06]: running main.lua
+	
+[00:00:06]: unloading prefabs for mod MOD_workshop-380423963	
+[00:00:06]: unloading prefabs for mod MOD_workshop-478005098	
+[00:00:06]: unloading prefabs for mod MOD_workshop-623749604	
+[00:00:06]: unloading prefabs for mod MOD_workshop-1845106626	
+[00:00:06]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:00:06]: loaded modindex	
+[00:00:06]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:06]: modoverrides.lua enabling workshop-1207269058	
+[00:00:06]: modoverrides.lua enabling workshop-623749604	
+[00:00:06]: modoverrides.lua enabling workshop-1845106626	
+[00:00:06]: modoverrides.lua enabling workshop-478005098	
+[00:00:06]: modoverrides.lua enabling workshop-380423963	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1845106626	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-380423963	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-478005098	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-623749604	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:06]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:06]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:06]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:06]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:06]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:06]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:06]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:06]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:06]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.11	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1845106626	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:06]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:06]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:06]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:06]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:06]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:06]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:06]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:06]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:06]: Loading mod: workshop-1845106626 (Smarter Ice Flingomatic) Version:1.2	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-380423963	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:06]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:06]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:06]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:06]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:06]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:06]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:06]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:06]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:06]: Loading mod: workshop-380423963 (Mineable Gems) Version:2.20	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:06]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:06]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:06]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:06]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:06]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:06]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:06]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:06]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:06]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.3	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-623749604	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:06]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:06]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:06]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:06]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:06]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:06]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-1845106626	
+[00:00:06]: Overriding mod workshop-1845106626's option more_fuel with value 2	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-478005098	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:06]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:06]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:06]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:06]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:06]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:06]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:06]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:06]: Loading mod: workshop-623749604 ( Storeroom) Version:2.5a	
+[00:00:06]: Mod: workshop-380423963 (Mineable Gems)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-380423963 (Mineable Gems)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-380423963 (Mineable Gems)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-478005098 (Craftable Gears)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-623749604 ( Storeroom)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-623749604 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-623749604 ( Storeroom)	Loading modmain.lua	
+[00:00:06]: Storeroom perishable is loaded	
+[00:00:06]: modimport: ../mods/workshop-623749604/perishable/dst.lua	
+[00:00:06]: ----- STOREROOM DEBUG ----- 	
+[00:00:06]: slots = 80	
+[00:00:06]: perish = 1	
+[00:00:06]: recipe: cutstone = 20 marble = 4 boards = 20	
+[00:00:06]: widget: widgetanimbank = ui_chest_5x16 widgetpos = 	(0.00, 160.00, 0.00)	 slot_x = 15 slot_y = 4 posslot_x = 91 posslot_y = 42	
+[00:00:06]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: Registering mod namespace "workshop-1207269058"
+[00:00:07]: PlayerDeaths could not load morgue	
+[00:00:07]: PlayerHistory could not load player_history	
+[00:00:07]: ServerPreferences could not load server_preferences	
+[00:00:07]: bloom_enabled	false	
+[00:00:07]: OnLoad slot	2	: World options was nil! Populating with default.	
+[00:00:07]: OnLoad slot	3	: World options was nil! Populating with default.	
+[00:00:07]: OnLoad slot	4	: World options was nil! Populating with default.	
+[00:00:07]: OnLoad slot	5	: World options was nil! Populating with default.	
+[00:00:07]: loaded saveindex	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: Load Slot: ... generating new world	
+[00:00:07]: [IPC] Signal 'DST_Slave_WorldGen' opened  #000005A4
+[00:00:07]: [IPC] Sending signal... #000005A4
+[00:00:07]: WorldSim::SimThread::SimThread()
+[00:00:07]: ABOUT TO INSTALL STACKTRACE
+[00:00:07]: DoLuaFile scripts/stacktrace.lua
+[00:00:07]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:07]: INSTALLED STACKTRACE
+[00:00:07]: WorldSim::SimThread::SimThread() complete
+[00:00:07]: THREAD - started 'WorldSim' (16072)
+[00:00:07]: WorldSim::SimThread::Main()
+[00:00:07]: DoLuaFile scripts/worldgen_main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: DLC enabled : 	false	
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-1207269058	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-623749604	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-380423963	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-1845106626	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-478005098	
+[00:00:07]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.11	
+[00:00:07]: Loading mod: workshop-623749604 ( Storeroom) Version:2.5a	
+[00:00:07]: Loading mod: workshop-380423963 (Mineable Gems) Version:2.20	
+[00:00:07]: Loading mod: workshop-1845106626 (Smarter Ice Flingomatic) Version:1.2	
+[00:00:07]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.3	
+[00:00:07]: Mod: workshop-380423963 (Mineable Gems)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-380423963 (Mineable Gems)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-478005098 (Craftable Gears)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-623749604 ( Storeroom)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-623749604 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: running worldgen_main.lua
+	
+[00:00:07]: SEED = 	1582422590	
+[00:00:07]: Generating world with these parameters:	
+[00:00:07]: level_type	SURVIVAL	
+[00:00:07]: level_data:	
+[00:00:07]: 	K: 	1	 V: 	table: 0926BCB0	
+[00:00:07]: 		K: 	background_node_range	 V: 	table: 0926BD50	
+[00:00:07]: 			K: 	1	 V: 	0	
+[00:00:07]: 			K: 	2	 V: 	1	
+[00:00:07]: 		K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 		K: 	hideminimap	 V: 	false	
+[00:00:07]: 		K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 		K: 	location	 V: 	cave	
+[00:00:07]: 		K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 		K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 		K: 	name	 V: 	洞穴	
+[00:00:07]: 		K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 		K: 	override_level_string	 V: 	false	
+[00:00:07]: 		K: 	overrides	 V: 	table: 0926C048	
+[00:00:07]: 			K: 	banana	 V: 	default	
+[00:00:07]: 			K: 	bats	 V: 	default	
+[00:00:07]: 			K: 	berrybush	 V: 	default	
+[00:00:07]: 			K: 	boons	 V: 	default	
+[00:00:07]: 			K: 	branching	 V: 	default	
+[00:00:07]: 			K: 	bunnymen	 V: 	default	
+[00:00:07]: 			K: 	cave_ponds	 V: 	default	
+[00:00:07]: 			K: 	cave_spiders	 V: 	default	
+[00:00:07]: 			K: 	cavelight	 V: 	default	
+[00:00:07]: 			K: 	chess	 V: 	default	
+[00:00:07]: 			K: 	disease_delay	 V: 	default	
+[00:00:07]: 			K: 	earthquakes	 V: 	default	
+[00:00:07]: 			K: 	fern	 V: 	default	
+[00:00:07]: 			K: 	fissure	 V: 	default	
+[00:00:07]: 			K: 	flint	 V: 	default	
+[00:00:07]: 			K: 	flower_cave	 V: 	default	
+[00:00:07]: 			K: 	grass	 V: 	default	
+[00:00:07]: 			K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 			K: 	lichen	 V: 	default	
+[00:00:07]: 			K: 	liefs	 V: 	default	
+[00:00:07]: 			K: 	loop	 V: 	default	
+[00:00:07]: 			K: 	marshbush	 V: 	default	
+[00:00:07]: 			K: 	monkey	 V: 	default	
+[00:00:07]: 			K: 	mushroom	 V: 	default	
+[00:00:07]: 			K: 	mushtree	 V: 	default	
+[00:00:07]: 			K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 			K: 	reeds	 V: 	default	
+[00:00:07]: 			K: 	regrowth	 V: 	default	
+[00:00:07]: 			K: 	roads	 V: 	never	
+[00:00:07]: 			K: 	rock	 V: 	default	
+[00:00:07]: 			K: 	rocky	 V: 	default	
+[00:00:07]: 			K: 	sapling	 V: 	default	
+[00:00:07]: 			K: 	season_start	 V: 	default	
+[00:00:07]: 			K: 	slurper	 V: 	default	
+[00:00:07]: 			K: 	slurtles	 V: 	default	
+[00:00:07]: 			K: 	start_location	 V: 	caves	
+[00:00:07]: 			K: 	task_set	 V: 	cave_default	
+[00:00:07]: 			K: 	tentacles	 V: 	default	
+[00:00:07]: 			K: 	touchstone	 V: 	default	
+[00:00:07]: 			K: 	trees	 V: 	default	
+[00:00:07]: 			K: 	weather	 V: 	default	
+[00:00:07]: 			K: 	world_size	 V: 	default	
+[00:00:07]: 			K: 	wormattacks	 V: 	default	
+[00:00:07]: 			K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 			K: 	wormlights	 V: 	default	
+[00:00:07]: 			K: 	worms	 V: 	default	
+[00:00:07]: 		K: 	required_prefabs	 V: 	table: 0926BEB8	
+[00:00:07]: 			K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 		K: 	substitutes	 V: 	table: 0926CFE8	
+[00:00:07]: 		K: 	version	 V: 	4	
+[00:00:07]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:07]: Prefab Swap Selection: regular grass	
+[00:00:07]: Prefab Swap Selection: regular twigs	
+[00:00:07]: Prefab Swap Selection: regular berries	
+[00:00:07]: New size:	425	default	
+[00:00:07]: Creating story...	
+[00:00:07]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:07]: [Story Gen] RestrictNodesByKey	
+[00:00:07]: Finding valid start task...	
+[00:00:07]:    ...picked 	CaveExitTask8	
+[00:00:07]: Has start node	GreenMushRabbits	
+[00:00:07]: Adding Background Nodes	
+[00:00:07]: [Story Gen] Adding Cove Nodes	
+[00:00:07]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:07]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:07]: GenerateVoronoiMap [100]:
+[00:00:10]: ...Done.
+[00:00:10]: ... story created	
+[00:00:10]: Baking map...	425	
+[00:00:10]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:10]: [WorldSimActual::ConvertToTileMap]
+[00:00:10]: [ConvertToTileMap]
+[00:00:10]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:10]: [WorldSimActual::SeparateIslands]
+[00:00:10]: [SeparateIslands]
+[00:00:10]: [WorldSimActual::SeparateIslands] complete
+[00:00:10]: Map Baked!	
+[00:00:10]: [WorldSimActual::ForceConnectivity]
+[00:00:10]: [GenerateLandmasses]
+[00:00:10]: [GenerateLandmasses] islands: 10
+[00:00:10]: [MergeConnectedLandmasses] true
+[00:00:10]: [WorldSimActual::ForceConnectivity] complete
+[00:00:10]: Encoding...	
+[00:00:10]: Encoding... DONE	
+[00:00:10]: Checking Tags	
+[00:00:10]: Couldn't generate any points for maze. Aborting.
+[00:00:10]: Populating voronoi...	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for RabbitTown in node CaveExitTask2:0:RabbitTown	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for RabbitTown in node GreenForest:1:GreenMushRabbits	
+[00:00:10]: Warning! Could not find a spot for CornerWall in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for RabbitCity in node RabbitCity:5:RabbitCity	
+[00:00:10]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:10]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:10]: [ReplaceSingleNonLandTiles] Replaced 37 tiles.
+[00:00:10]: disconnected tiles...	664	
+[00:00:10]: MilitaryPits:0:Barracks Cant process points	
+[00:00:10]: MilitaryPits:2:Barracks Cant process points	
+[00:00:10]: MilitaryPits:1:Barracks Cant process points	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	307.78	314.515	381.12, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	308.03	314.515	382.12, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4525	319.515	403.81, 0, 428.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4525	319.765	403.81, 0, 429.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4525	320.015	403.81, 0, 430.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	307.9825	320.5	381.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	307.7325	320.5	380.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4675	315.53	403.87, 0, 412.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4675	315.78	403.87, 0, 413.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	313.4675	316.03	403.87, 0, 414.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	306.2175	304.515	374.87, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	305.9675	304.515	373.87, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.545	309.515	352.18, 0, 388.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.545	309.765	352.18, 0, 389.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.545	310.015	352.18, 0, 390.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	306.015	310.5	374.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	306.265	310.5	375.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.53	305.53	352.12, 0, 372.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.53	305.78	352.12, 0, 373.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	300.53	306.03	352.12, 0, 374.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	396.5	209.265	736, 0, -12.94	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	297.4825	308.78	339.93, 0, 385.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	297.4825	309.03	339.93, 0, 386.12	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	292.4825	314.4525	319.93, 0, 407.81	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	292.2325	314.4525	318.93, 0, 407.81	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	291.9825	314.4525	317.93, 0, 407.81	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	291.5	308.9825	316, 0, 385.93	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	291.5	308.7325	316, 0, 384.93	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	296.4675	314.4675	335.87, 0, 407.87	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	296.2175	314.4675	334.87, 0, 407.87	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	295.9675	314.4675	333.87, 0, 407.87	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	312.0625	314.515	398.25, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	312.5625	314.515	400.25, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	312.3125	314.515	399.25, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	311.8125	314.515	397.25, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.53	314.515	384.12, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.28	314.515	383.12, 0, 408.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.9825	320.5	385.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.7325	320.5	384.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.4825	320.5	383.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	308.2325	320.5	382.93, 0, 432	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	301.9375	304.515	357.75, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	301.4375	304.515	355.75, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	301.6875	304.515	356.75, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	302.1875	304.515	358.75, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.4675	304.515	371.87, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.7175	304.515	372.87, 0, 368.06	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.015	310.5	370.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.265	310.5	371.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.515	310.5	372.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	305.765	310.5	373.06, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	313.0625	339.93, 0, 402.25	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	313.5625	339.93, 0, 404.25	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	313.3125	339.93, 0, 403.25	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	312.8125	339.93, 0, 401.25	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	309.53	339.93, 0, 388.12	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	297.4825	309.28	339.93, 0, 387.12	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	291.5	309.9825	316, 0, 389.93	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	291.5	309.7325	316, 0, 388.93	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	291.5	309.4825	316, 0, 387.93	
+[00:00:10]: Removing entity on IMPASSABLE	brokenwall_ruins	291.5	309.2325	316, 0, 386.93	
+[00:00:10]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	312.25	319.75	399, 0, 429	
+[00:00:10]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	301.75	309.75	357, 0, 389	
+[00:00:10]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	292.25	313.25	319, 0, 403	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	309.75	315	389, 0, 410	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	311	318	394, 0, 422	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	311.5	316.5	396, 0, 416	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	308	316	382, 0, 414	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	310	316.25	390, 0, 415	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	309.5	319.5	388, 0, 428	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	304.25	305	367, 0, 370	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	303	308	362, 0, 382	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	302.5	306.5	360, 0, 376	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	306	306	374, 0, 374	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	304	306.25	366, 0, 375	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	304.5	309.5	368, 0, 388	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	297	310.75	338, 0, 393	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	294	312	326, 0, 398	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	295.5	312.5	332, 0, 400	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	296	309	334, 0, 386	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	295.75	311	333, 0, 394	
+[00:00:10]: Removing entity on IMPASSABLE	chessjunk_spawner	292.5	310.5	320, 0, 392	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	313	316.75	402, 0, 417	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	308.75	317.75	385, 0, 421	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	301	306.75	354, 0, 377	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	305.25	307.75	371, 0, 381	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	295.25	314	331, 0, 406	
+[00:00:10]: Removing entity on IMPASSABLE	rook_nightmare_spawner	294.25	309.75	327, 0, 389	
+[00:00:10]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:10]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:10]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:10]: Done cave map gen!	
+[00:00:10]: Checking map...	
+[00:00:10]: Generation complete	
+[00:00:11]: WorldSim::SimThread::Main() complete
+[00:00:11]: Serializing world: session/47140E606242BCAD/0000000002
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:12]: Mod: workshop-380423963 (Mineable Gems)	Registering prefabs	
+[00:00:12]: Mod: workshop-380423963 (Mineable Gems)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-478005098 (Craftable Gears)	Registering prefabs	
+[00:00:12]: Mod: workshop-478005098 (Craftable Gears)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-623749604 ( Storeroom)	Registering prefabs	
+[00:00:12]: Mod: workshop-623749604 ( Storeroom)	  Registering prefab file: prefabs/storeroom	
+[00:00:12]: Mod: workshop-623749604 ( Storeroom)	    storeroom	
+[00:00:12]: Mod: workshop-623749604 ( Storeroom)	    storeroom_placer	
+[00:00:12]: Mod: workshop-623749604 ( Storeroom)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	Registering prefabs	
+[00:00:12]: Mod: workshop-1845106626 (Smarter Ice Flingomatic)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:12]: 	LOAD BE	
+[00:00:24]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:00:26]: 	LOAD BE: done	
+[00:00:26]: Begin Session: 47140E606242BCAD
+[00:00:26]: saving to server_temp/server_save	
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:26]: MiniMapComponent::AddAtlas( ../mods/workshop-623749604/minimap/storeroom.xml )
+[00:00:26]: Loading 16 new character(s)	
+[00:00:28]: Total 16 character(s) loaded	
+[00:00:32]: Loading Nav Grid	
+[00:00:32]: World generated on version 393281, using seed: 1582422590	
+[00:00:32]: [Shard] Slave is waiting for LUA...
+[00:00:34]: Reconstructing topology	
+[00:00:34]: 	...Sorting points	
+[00:00:34]: 	...Sorting edges	
+[00:00:34]: 	...Connecting nodes	
+[00:00:34]: 	...Validating connections	
+[00:00:34]: 	...Housekeeping	
+[00:00:34]: 	...Done!	
+[00:00:34]: 1 uploads added to server. From server_temp
+[00:00:34]: About to start a shard with these settings:
+[00:00:34]:   ShardName: Caves
+[00:00:34]:   ShardID: 83394601
+[00:00:34]:   ShardRole: SLAVE
+[00:00:34]:   MasterHost: 127.0.0.1
+[00:00:34]:   MasterBind: (null)
+[00:00:34]:   MasterPort: 10888
+[00:00:34]: [Shard] Connecting to master...
+[00:00:34]: Telling Client our new session identifier: 47140E606242BCAD
+[00:00:34]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:00:34]: [Steam] SteamGameServer_Init success
+[00:00:34]: [Shard] Sending slave information to master...
+[00:00:35]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:35]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:35]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:35]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:35]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:35]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:35]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:35]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:35]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:35]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:35]: Registering slave in US lobby
+[00:00:35]: Gameserver logged on to Steam, assigned identity steamid:90132882835970049
+[00:00:35]: [Shard] Slave is now ready!
+[00:00:35]: Registering slave in US lobby
+[00:00:35]: World 1 is now connected	
+[00:00:35]: Validating portal[1] <-> 1[1] (active)	
+[00:00:35]: Validating portal[2] <-> 1[2] (active)	
+[00:00:35]: Validating portal[3] <-> 1[3] (active)	
+[00:00:35]: Validating portal[4] <-> 1[4] (active)	
+[00:00:35]: Validating portal[5] <-> 1[5] (active)	
+[00:00:35]: Validating portal[6] <-> 1[6] (active)	
+[00:00:35]: Validating portal[7] <-> 1[7] (active)	
+[00:00:35]: Validating portal[8] <-> 1[8] (active)	
+[00:00:35]: Validating portal[9] <-> 1[9] (active)	
+[00:00:35]: Validating portal[10] <-> 1[10] (active)	
+[00:00:36]: [Shard] Slave LUA is now ready!
+[00:00:36]: [IPC] Signal 'DST_Slave_Ready' opened  #000007D8
+[00:00:36]: [IPC] Sending signal... #000007D8
+[00:00:36]: Sim paused
+[00:00:55]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:00:56]: [IPC] Received shutdown signal.
+[00:00:56]: Serializing world: session/47140E606242BCAD/0000000003
+[00:00:56]: [Shard] Stopping shard mode
+[00:00:56]: Collecting garbage...
+[00:00:56]: lua_gc took 0.11 seconds
+[00:00:56]: ~ShardLuaProxy()
+[00:00:56]: ~cEventLeaderboardProxy()
+[00:00:56]: ~ItemServerLuaProxy()
+[00:00:56]: ~InventoryLuaProxy()
+[00:00:56]: ~NetworkLuaProxy()
+[00:00:56]: ~SimLuaProxy()
+[00:00:57]: lua_close took 0.17 seconds
+[00:00:57]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:00:57]: CurlRequestManager::ClientThread::Main() complete
+[00:00:57]: HttpClient2 discarded 0 callbacks.
+[00:00:57]: Shutting down
